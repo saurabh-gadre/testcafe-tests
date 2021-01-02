@@ -1,0 +1,18 @@
+{
+  "name": "noteit-tests",
+  "version": "1.0.0",
+  "description": "noteit-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome fixtures/"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "saurabh gadre",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.10.1",
+    "typescript": "^4.1.3"
+  }
+}
