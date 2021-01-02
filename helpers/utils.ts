@@ -5,8 +5,8 @@ export async function login(t:TestController) {
     const passwordInput = await Selector("#password");
     const loginButton   = await Selector("button").withAttribute("type","submit");
 
-    await t.typeText(userNameInput, "john.doe");
-    await t.typeText(passwordInput, "password123");
+    await t.typeText(userNameInput, "username");
+    await t.typeText(passwordInput, "password");
     await t.click(loginButton);
 }
 
